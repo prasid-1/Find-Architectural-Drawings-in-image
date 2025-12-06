@@ -13,7 +13,7 @@
 
   ```powershell
   python -m venv .venv
-  .\.venv\Scripts\Activate.ps1
+  .\.venv\Scripts\Activate
   ```
 
 - **2. Install dependencies:**
@@ -24,7 +24,13 @@
 
 - **3. Add an input image:** Put your image file at `input_image/image_resized.png` or change the path in `main.py`.
 
-- **4. Run the pipeline:**
+- **4. Create .env file:** Create .env file at root with openAI api key.
+
+  ```powershell
+  OPENAI_API_KEY = <YOUR_API_KEY>
+  ```
+
+- **5. Run the pipeline:**
 
   ```powershell
   python main.py
