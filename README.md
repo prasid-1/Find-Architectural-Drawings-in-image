@@ -24,7 +24,7 @@
 
 - **3. Add an input image:** Put your image file at `input_image/image_resized.png` or change the path in `main.py`.
 
-- **4. Create .env file:** Create .env file at root with openAI api key.
+- **4. Create .env file:** Create `.env` file at root with openAI api key.
 
   ```powershell
   OPENAI_API_KEY = <YOUR_API_KEY>
