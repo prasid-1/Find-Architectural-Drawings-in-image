@@ -1,6 +1,6 @@
 **Project**
 
-- **Description:**: Find and annotate architectural drawings in a provided image. The project uses an LLM-driven prompter to detect drawing regions, outputs bounding box coordinates, and generates an OpenCV script to visualize those boxes on the image.
+- **Description:** Find and annotate architectural drawings in a provided image. The project uses an LLM-driven prompter to detect drawing regions, outputs bounding box coordinates, and generates an OpenCV script to visualize those boxes on the image.
 
 **Requirements**
 
