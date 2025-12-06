@@ -27,7 +27,7 @@
 - **4. Create .env file:** Create `.env` file at root with openAI api key.
 
   ```powershell
-  OPENAI_API_KEY = <YOUR_API_KEY>
+  OPENAI_API_KEY = "YOUR_API_KEY"
   ```
 
 - **5. Run the pipeline:**
