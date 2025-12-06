@@ -4,8 +4,8 @@
 
 **Requirements**
 
-- **Python:**: 3.8+.
-- **Dependencies:**: See `requirements.txt`. At minimum the project requires `opencv-python` and any packages referenced by `anot/gptPrompter.py` (LLM/HTTP client libraries).
+- **Python:** 3.8+.
+- **Dependencies:** See `requirements.txt`. At minimum the project requires `opencv-python` and any packages referenced by `anot/gptPrompter.py` (LLM/HTTP client libraries).
 
 **Quick Start**
 
@@ -49,15 +49,15 @@
 
 **Usage notes & tips**
 
-- **LLM configuration:**: If `anot/gptPrompter.py` uses an external LLM or API, set any required API keys or environment variables before running. Check that module for details.
-- **Headless environments:**: `bbox.py` uses `cv2.imshow` to display images. On headless servers, modify `bbox.py` to save the annotated image instead (use `cv2.imwrite`) or run locally with a display.
-- **Adjusting detection prompt or image path:**: Edit `main.py` to change the prompt or to point to another input image.
+- **LLM configuration:** If `anot/gptPrompter.py` uses an external LLM or API, set any required API keys or environment variables before running. Check that module for details.
+- **Headless environments:** `bbox.py` uses `cv2.imshow` to display images. On headless servers, modify `bbox.py` to save the annotated image instead (use `cv2.imwrite`) or run locally with a display.
+- **Adjusting detection prompt or image path:** Edit `main.py` to change the prompt or to point to another input image.
 
 **Troubleshooting**
 
-- **OpenCV errors on import:**: Ensure `opencv-python` is installed in the active environment.
-- **No bounding boxes produced:**: Check `pdfFormulation/bounding_box_response.txt` and `anot/gptPrompter.py` logs — the LLM may not be returning the expected tool calls or JSON. Confirm the prompt format and LLM configuration.
-- **`bbox.py` not generated:**: Verify `buildPdf.py` ran and that `pdfFormulation` has write permission.
+- **OpenCV errors on import:** Ensure `opencv-python` is installed in the active environment.
+- **No bounding boxes produced:** Check `pdfFormulation/bounding_box_response.txt` and `anot/gptPrompter.py` logs — the LLM may not be returning the expected tool calls or JSON. Confirm the prompt format and LLM configuration.
+- **`bbox.py` not generated:** Verify `buildPdf.py` ran and that `pdfFormulation` has write permission.
 
 **Extending this project**
 
